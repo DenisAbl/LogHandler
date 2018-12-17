@@ -9,13 +9,12 @@ public class StatisticLogErrorHandlerTest {
 
     @Before
     public void setUp() {
-        handler = new StatisticLogErrorHandler("C:/Users/WAY/Desktop/logs");
+        handler = new StatisticLogErrorHandler("C:/Users/ru0syda/Desktop/logs");
     }
 
     @Test
     public void handleTest() throws IOException {
         handler.handle();
-//        handler.filesList.forEach(file -> System.out.println(file.getName()));
     }
 
 
